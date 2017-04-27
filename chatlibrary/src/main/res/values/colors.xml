@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#b9b9b9</color>
+
+    <color name="color_chat_time">#d1d1d1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="chat_edit_text_stroke">#b8b8b8</color>
+    <color name="chat_button_stroke">#868686</color>
+    <color name="chat_button_voice_press">#d4d4d4</color>
+    <color name="chat_footer_bg">#efefef</color>
+    <color name="color_chat_edit_line_pressed">#45B91C</color>
+    <color name="color_green_dart">#328715</color>
+    <color name="color_chat_edit_line_normal">#b9b9b9</color>
+    <color name="divider">#cecbcb</color>
+    <color name="black_2">#191919</color>
+    <color name="chat_window_color">#F7F7F7</color>
+
+    <color name="first_color_text">#333333</color>
+    <color name="second_color_text">#666666</color>
+    <color name="third_color_text">#999999</color>
+    <color name="hint_text_color">#bbbbbb</color>
+    <color name="orange">#ed6630</color>
+    <color name="orange_pressed">#b34012</color>
+    <color name="gray_border">#e1e1e1</color>
+</resources>

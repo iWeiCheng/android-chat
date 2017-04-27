@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="10:22"
+        android:textColor="@color/third_color_text"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/head_image"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/time"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/afa_logos" />
+
+    <com.caijia.chat.view.EmoticonTextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/head_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@+id/head_image"
+        android:background="@drawable/chat_to_bg_normal"
+        android:minHeight="38dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="你是谁"
+        android:textColor="@color/first_color_text"
+        android:textSize="14sp" />
+
+</RelativeLayout>

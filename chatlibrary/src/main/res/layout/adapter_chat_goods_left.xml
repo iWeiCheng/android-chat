@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="10:22"
+        android:textColor="@color/third_color_text"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/head_image"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/time"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/afa_logos" />
+
+    <LinearLayout
+        android:id="@+id/detail_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/head_image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/head_image"
+        android:background="@drawable/im_dialog_left"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pro_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="新款2015冬装韩版女装高领纯色1111111111111"
+                android:textColor="@color/first_color_text"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:singleLine="true"
+                android:text="$180.00 - $188.00"
+                android:textColor="@color/orange"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/layout"
+            android:src="@drawable/ic_launcher" />
+
+    </LinearLayout>
+</RelativeLayout>
